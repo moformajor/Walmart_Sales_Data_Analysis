@@ -58,6 +58,7 @@ III. Exploratory Data Analysis (EDA): Exploratory data analysis is done to answe
 - What is the gender of most of the customers?
 
 # Queries sample
+```sql
 -- Most common payment method
 SELECT payment_type, COUNT(payment_type) AS numbers
 FROM sales
@@ -69,5 +70,6 @@ SELECT product_line, COUNT(product_line) AS Qty
 FROM sales
 GROUP BY product_line
 ORDER BY Qty DESC;
+```
 
 For the rest of the full queries, check the [Data Exploration of walmart sales.sql](https://github.com/moformajor/Walmart_Sales_Data_Analysis/blob/main/Data%20Exploration%20of%20walmart%20sales.sql) file
