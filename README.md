@@ -29,20 +29,20 @@ II. Feature Engineering: This will help use generate some new columns from exist
   
 III. Exploratory Data Analysis (EDA): Exploratory data analysis is done to answer the listed questions and aims of this project.
 
-## Some Business Question Answered
+## Some Business Questions Answered
 1. Product
-How many unique product lines does the data have?
-What is the most common payment method?
-What is the most selling product line?
-What is the total revenue by month?
-What month had the largest COGS?
-What product line had the largest revenue?
-What is the city with the largest revenue?
-What product line had the largest VAT?
-Fetch each product line and add a column to those product line showing "Good", "Bad". Good if its greater than average sales
-Which branch sold more products than average product sold?
-What is the most common product line by gender?
-What is the average rating of each product line?
+- How many unique product lines does the data have?
+- What is the most common payment method?
+- What is the most selling product line?
+- What is the total revenue by month?
+- What month had the largest COGS?
+- What product line had the largest revenue?
+- What is the city with the largest revenue?
+- What product line had the largest VAT?
+- Fetch each product line and add a column to those product line showing "Good", "Bad". Good if its greater than average sales
+- Which branch sold more products than average product sold?
+- What is the most common product line by gender?
+- What is the average rating of each product line?
 
 2. Sales
 - Number of sales made in each time of the day per weekday
@@ -58,6 +58,7 @@ What is the average rating of each product line?
 - What is the gender of most of the customers?
 
 # Queries sample
+-- Most common payment method
 select payment_type ,count(payment_type) as numbers
 from sales
 group by payment_type
