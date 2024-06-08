@@ -59,14 +59,15 @@ III. Exploratory Data Analysis (EDA): Exploratory data analysis is done to answe
 
 # Queries sample
 -- Most common payment method
-select payment_type ,count(payment_type) as numbers
-from sales
-group by payment_type
-order by numbers desc;
+SELECT payment_type, COUNT(payment_type) AS numbers
+FROM sales
+GROUP BY payment_type
+ORDER BY numbers DESC;
 
--- What is the most selling product line? 
-select  product_line,  count(product_line) as Qty
-from sales
-group by product_line
-order by Qty desc;
+-- What is the most selling product line?
+SELECT product_line, COUNT(product_line) AS Qty
+FROM sales
+GROUP BY product_line
+ORDER BY Qty DESC;
+
 For the rest of the full queries, check the [Data Exploration of walmart sales.sql](https://github.com/moformajor/Walmart_Sales_Data_Analysis/blob/main/Data%20Exploration%20of%20walmart%20sales.sql) file
