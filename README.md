@@ -1,7 +1,7 @@
 # Walmart_Sales_Data_Analysis
 
 ## Overview 
-In this project, we delve into Walmart sales data to gain insights into the performance of top branches and products, analyze sales trends across various product categories, and understand customer behavior. The overarching objective is to examine how sales strategies can be enhanced and optimized for better outcomes. The dataset utilized for this analysis originates from [the Kaggle Walmart Sales Forecasting Competition](https://www.kaggle.com/code/aslanahmedov/walmart-sales-forecasting)
+In this project, we delve into Walmart sales data to gain insights into the performance of top branches and products, analyze sales trends across various product categories, and understand customer behavior. The overarching objective is to examine how sales strategies can be enhanced and optimized for better outcomes. The dataset utilized for this analysis originates from [the Kaggle Walmart Sales Forecasting ](https://www.kaggle.com/code/aslanahmedov/walmart-sales-forecasting)
 
 ## Aim of the Project
 The primary objective of this project is to delve into Walmart's sales data, aiming to discern the various factors influencing the sales performance across its branches.
